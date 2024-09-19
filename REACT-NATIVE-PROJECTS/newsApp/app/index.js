@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={{ uri: "https://images.pexels.com/photos/9967888/pexels-photo-9967888.jpeg?auto=compress&cs=tinysrgb&w=1200", }}
+        source={{ uri: "https://st.depositphotos.com/1152339/1972/i/950/depositphotos_19723583-stock-photo-news-concept-news-on-digital.jpg", }}
         style={styles.backgroundImage}
         resizeMode="cover"
       >
