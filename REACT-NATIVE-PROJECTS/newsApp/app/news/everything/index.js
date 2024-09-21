@@ -88,7 +88,7 @@ const AllNews = () => {
         />
       ) : (
         <Text style={styles.noResultsText}>
-          Nenhum artigo de notícias encontrado.
+          Nenhuma Noticia encontrada.
         </Text>
       )}
     </View>

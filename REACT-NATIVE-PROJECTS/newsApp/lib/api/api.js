@@ -10,7 +10,7 @@ export async function getNewsByCategory(category) {
     const response = await api.get(`/everything`, {
       params: {
         q: category,
-        apiKey: "74dbbc29322d422a9f084de0e2720076",
+        apiKey: "2b0f209f016d4a9e82fb366661b5f303",
       },
     });
     return response.data;
