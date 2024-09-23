@@ -43,7 +43,6 @@ export default function RootLayout() {
           }}
         />
 
-        {/* Hide tabs */}
         <Tabs.Screen
           name="news/categories/[newsByCategory]"
           options={{
