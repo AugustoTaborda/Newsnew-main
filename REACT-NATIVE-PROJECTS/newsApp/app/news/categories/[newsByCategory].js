@@ -5,7 +5,6 @@ import { useQuery } from "@tanstack/react-query";
 import { getNewsByCategory } from "../../../lib/api/api";
 
 const NewsByCategory = () => {
-  // get the category from the url
   
   const { newsByCategory } = useLocalSearchParams();
   const { data, error, isError, isSuccess, isLoading } = useQuery({
