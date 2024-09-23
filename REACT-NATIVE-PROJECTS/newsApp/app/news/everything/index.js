@@ -11,8 +11,8 @@ const AllNews = () => {
 
   const { isLoading, data, error } = useQuery({
     queryKey: ["everything", searchQuery],
-    queryFn: () => getNewsByQuery(searchQuery || "latest"), // Default to 'latest' if no query
-    enabled: !!searchQuery, // Only run query if searchQuery is not empty
+    queryFn: () => getNewsByQuery(searchQuery || "latest"), 
+    enabled: !!searchQuery, 
   });
 
   const handleSearch = () => {
